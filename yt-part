@@ -15,11 +15,6 @@ Help()
     echo "-vcodec       Which vcodec should the output file be (default is libx264)"
 }
 
-if ! command -v yt-dlp &> /dev/null
-then
-    echo "install yt-dlp using pip install yt-dlp"
-    exit
-fi
 
 name=$(date +%FT%H-%M-%S)
 start="00:00"
