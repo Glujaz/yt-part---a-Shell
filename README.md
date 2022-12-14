@@ -35,7 +35,7 @@ yt-dlp : pip install yt-dlp
 
 ##install
 
-to download the code, us lg2 clone followed by the repo link.
+to download the code, us lg2 clone https://github.com/Glujaz/yt-part-for-a-Shell.git
 in a-Shell, running shellscripts is done by typing "sh" first.
 
 ## Licence
