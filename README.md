@@ -18,30 +18,25 @@ Short command line utility to download part of a video available online (might n
 
 If you want to dowload the part of a youtube video between 00:42 and 1:00 and name it output.mp4 you can use :  
 
-`yt-part -start 00:42 -length 00:18 -n output https://www.youtube.com/watch?v=dQw4w9WgXcQ`  
+`sh yt-part -start 00:42 -length 00:18 -n output https://www.youtube.com/watch?v=dQw4w9WgXcQ`  
 
 If you want to download the first 30 seconds of a youtube video, and have the output file as a mkv you can use :  
 
-`yt-part -length 30 -format mkv https://www.youtube.com/watch?v=dQw4w9WgXcQ`
+`sh yt-part -length 30 -format mkv https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 
 ## Dependencies
 
 This programm uses yt-dlp and ffmpeg, both should be available in your respective distribution repositories :
 
-Debian (and derivatives) : `sudo apt install yt-dlp ffmpeg`  
-Arch (and derivatives) : `sudo pacman -S yt-dlp ffmpeg`
 
-## Installation
+ffmpeg is already installed in a-shell
+yt-dlp : pip install yt-dlp
 
-You can install yt-part with the commands :
 
-`sudo cp yt-part /bin/ && sudo chmod +x /bin/yt-part`
+##install
 
-## Uninstallation
-
-You can easily uninstall yt-part with the command :
-
-`sudo rm /bin/yt-part`
+to download the code, us lg2 clone followed by the repo link.
+in a-Shell, running shellscripts is done by typing "sh" first.
 
 ## Licence
 
