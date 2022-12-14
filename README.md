@@ -1,6 +1,6 @@
 # yt-part for a-Shell
 
-This is the a-Shell for iOS version. Absent commands from a-Shell where removed (which), and ffmpeg uses hevc_videotoolbox instead. you can also manually change to h264_videotoolbox.
+This is the a-Shell for iOS version. Absent commands from a-Shell where removed (which), and ffmpeg uses hevc_videotoolbox instead. you can also manually change to h264_videotoolbox. Audio issues have also been resolved, and is set to AAC.
 
 Short command line utility to download part of a video available online (might not work on a few websites depending on youtube-dl abilities)
 
